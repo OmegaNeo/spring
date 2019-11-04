@@ -68,7 +68,7 @@
        </plugins>
     </build>
     
-<settings>
+
     <pluginGroups>
         <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
     </pluginGroups>
@@ -86,6 +86,6 @@
             </properties>
         </profile>
      </profiles>
-</settings>
+
     
 </project>
