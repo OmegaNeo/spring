@@ -27,7 +27,7 @@ public class Application extends SpringBootServletInitializer {
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
-              System.out.println("abc")
+              System.out.println("abc");
             
 
             String[] beanNames = ctx.getBeanDefinitionNames();
